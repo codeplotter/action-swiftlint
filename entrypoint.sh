@@ -3,7 +3,7 @@
 # convert swiftlint's output into GitHub Actions Logging commands
 # https://help.github.com/en/github/automating-your-workflow-with-github-actions/development-tools-for-github-actions#logging-commands
 
-sh -c "git config --global --add safe.directory $PWD"
+# sh -c "git config --global --add safe.directory $PWD"
 
 function stripPWD() {
     if ! ${WORKING_DIRECTORY+false};
